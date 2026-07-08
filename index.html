@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chigla Ads | Performance Marketing Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">Chigla<span>Ads</span></div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact" class="btn-primary">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-content">
+            <h1>Data-Driven Media Buying & Campaign Management</h1>
+            <p>We specialize in scaling brands through targeted advertising, comprehensive reporting, and ruthless optimization on the world's fastest-growing platforms.</p>
+            <a href="#contact" class="btn-primary btn-large">Scale With Us</a>
+        </div>
+    </header>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Expertise</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Media Buying</h3>
+                    <p>Strategic ad placements and budget allocation designed to maximize your Return on Ad Spend (ROAS) and drive scalable customer acquisition.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Campaign Management</h3>
+                    <p>End-to-end monitoring and daily optimization of your live campaigns to ensure performance metrics consistently hit target KPIs.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Analytics & Reporting</h3>
+                    <p>Custom data visualization and internal dashboarding that turns complex ad metrics into clear, actionable business insights.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container about-content">
+            <div class="about-text">
+                <h2 class="section-title">About Chigla Ads</h2>
+                <p>Based in Australia, Chigla Ads is a boutique performance marketing agency built for the modern digital landscape. We leverage proprietary analytics and deep platform integrations to manage high-volume ad campaigns.</p>
+                <p>Our focus is strictly on performance. By combining creative testing with rigorous data analysis, we ensure every advertising dollar is tracked, optimized, and pushed to deliver maximum yield.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container contact-container">
+            <h2 class="section-title">Partner With Us</h2>
+            <p class="contact-subtitle">Ready to elevate your ad performance? Get in touch for a consultation.</p>
+            
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Business Email" required>
+                </div>
+                <div class="form-group">
+                    <select id="inquiry" required>
+                        <option value="">Select Inquiry Type...</option>
+                        <option value="campaign">Campaign Management</option>
+                        <option value="reporting">API & Reporting Solutions</option>
+                        <option value="other">General Inquiry</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="4" placeholder="How can we help you?" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary btn-submit">Send Message</button>
+                <div id="formStatus" class="form-status"></div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>Chigla Ads</h3>
+                <p>Sydney, NSW, Australia</p>
+                <p>Email: contact@mospura.com</p>
+            </div>
+            <div class="footer-legal">
+                <p>&copy; 2026 Chigla Ads. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
